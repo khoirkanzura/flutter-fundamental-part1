@@ -1,29 +1,3 @@
-// import 'package:flutter/material.dart';
-
-// void main() {
-//   runApp(const MyApp());
-// }
-
-// class MyApp extends StatelessWidget {
-//   const MyApp({Key? key}) : super(key: key);
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return MaterialApp(
-//       home: Scaffold(
-//         appBar: AppBar(title: const Text("Contoh TextField")),
-//         body: const TextField(
-//           obscureText: false,
-//           decoration: InputDecoration(
-//             border: OutlineInputBorder(),
-//             labelText: 'Nama',
-//           ),
-//         ),
-//       ),
-//     );
-//   }
-// }
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -35,60 +9,21 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false, // biar label DEBUG hilang
+    return MaterialApp(
       home: Scaffold(
-        body: MyLayout(),
-      ),
-    );
-  }
-}
-
-class MyLayout extends StatelessWidget {
-  const MyLayout({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Center(
-      child: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: ElevatedButton(
-          child: const Text('Show alert'),
-          onPressed: () {
-            showAlertDialog(context);
-          },
+        appBar: AppBar(title: const Text("Contoh TextField")),
+        body: const TextField(
+          obscureText: false,
+          decoration: InputDecoration(
+            border: OutlineInputBorder(),
+            labelText: 'Nama',
+          ),
         ),
       ),
     );
   }
 }
 
-void showAlertDialog(BuildContext context) {
-  // Tombol OK
-  Widget okButton = TextButton(
-    child: const Text("OK"),
-    onPressed: () {
-      Navigator.pop(context); // nutup dialog
-    },
-  );
-
-  // Bikin AlertDialog
-  AlertDialog alert = AlertDialog(
-    title: const Text("My title"),
-    content: const Text("This is my message."),
-    actions: [
-      okButton,
-    ],
-  );
-
-  // Tampilkan dialog
-  showDialog(
-    context: context,
-    builder: (BuildContext context) {
-      return alert;
-    },
-  );
-}
 
 
 // import 'package:flutter/material.dart';
