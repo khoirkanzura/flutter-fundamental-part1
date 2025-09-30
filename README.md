@@ -33,28 +33,28 @@
 - **Mengaktifkan proses debug USB:**  
 - **Langkah 1:**  
   Di perangkat Android: Settings → About phone → ketuk Build number 7x sampai muncul pesan *You are now a developer!*  
-  <p align="center"><img src="./images/32.png" alt="Screenshot 1" width="400"/></p>  
-  <p align="center"><img src="./images/33.png" alt="Screenshot 1" width="400"/></p>  
+  <p align="center"><img src="./images/32.jpg" alt="Screenshot 1" width="400"/></p>  
+  <p align="center"><img src="./images/33.jpg" alt="Screenshot 1" width="400"/></p>  
 
 - **Langkah 2:**  
   Settings → System → Developer options → aktifkan USB Debugging.  
-  <p align="center"><img src="./images/34.png" alt="Screenshot 1" width="400"/></p>  
-  <p align="center"><img src="./images/35.png" alt="Screenshot 1" width="400"/></p>  
-  <p align="center"><img src="./images/36.png" alt="Screenshot 1" width="400"/></p>  
+  <p align="center"><img src="./images/34.jpg" alt="Screenshot 1" width="400"/></p>  
+  <p align="center"><img src="./images/35.jpg" alt="Screenshot 1" width="400"/></p>  
+  <p align="center"><img src="./images/36.jpg" alt="Screenshot 1" width="400"/></p>  
 
 - **Langkah 3:**  
-- **Android Studio:**  
+  **Android Studio:**  
   Buka **Tools > SDK Manager > SDK Tools**, centang **Google USB Driver**, lalu klik OK.  
   <p align="center"><img src="./images/37.png" alt="Screenshot 1" width="400"/></p>  
   <p align="center"><img src="./images/37.1.png" alt="Screenshot 1" width="400"/></p>  
 
 - **Langkah 4:**  
-- **Menjalankan aplikasi di perangkat Android:**  
-  1. Sambungkan perangkat Android ke komputer menggunakan kabel USB. Dialog yang meminta Anda mengizinkan proses debug USB akan muncul di perangkat.  
-  2. Pilih kotak centang Always allow from this computer, lalu ketuk OK.  
-  3. Di Android Studio di komputer, pastikan perangkat Anda dipilih di menu dropdown. Klik Ini adalah ikon Run Android Studio.  
-  <p align="center"><img src="./images/38.png" alt="Screenshot 1" width="400"/></p>  
-  <p align="center"><img src="./images/39.png" alt="Screenshot 1" width="400"/></p>  
+  **Menjalankan aplikasi di perangkat Android:**  
+  - Sambungkan perangkat Android ke komputer menggunakan kabel USB. Dialog yang meminta Anda mengizinkan proses debug USB akan muncul di perangkat.  
+  - Pilih kotak centang Always allow from this computer, lalu ketuk OK.  
+  - Di Android Studio di komputer, pastikan perangkat Anda dipilih di menu dropdown. Klik Ini adalah ikon Run Android Studio.  
+  <p align="center"><img src="./images/38.jpg" alt="Screenshot 1" width="400"/></p>  
+  <p align="center"><img src="./images/39.jpg" alt="Screenshot 1" width="400"/></p>  
 
 ---
 
@@ -91,7 +91,7 @@
 - **Langkah 8:**  
   Salin tautan repository Anda dari browser ke bagian ini, lalu klik *Add remote.*  
   <p align="center"><img src="./images/14.png" alt="Screenshot 1" width="400"/></p>  
-  Setelah berhasil, tulis remote name dengan *"origin"*  
+  Setelah berhasil, tulis remote name dengan "origin"  
   <p align="center"><img src="./images/14.0.png" alt="Screenshot 1" width="400"/></p>  
 
 - **Langkah 9:**  
@@ -133,7 +133,7 @@
 ### Praktikum 5: Menerapkan Widget Material Design dan iOS Cupertino
 
 - **Langkah 1: Cupertino Button dan Loading Bar**  
-  Buat file *loading_cupertino.dart* di dalam folder basic_widgets. Import material.dart dan cupertino.dart, lalu isi method Widget build dengan kode yang menampilkan CupertinoButton dan CupertinoActivityIndicator.  
+  Buat file loading_cupertino.dart di dalam folder basic_widgets. Import material.dart dan cupertino.dart, lalu isi method Widget build dengan kode yang menampilkan CupertinoButton dan CupertinoActivityIndicator.  
   <p align="center"><img src="./images/25.png" alt="Screenshot 1" width="400"/></p>  
   <p align="center"><img src="./images/25.1.png" alt="Screenshot 1" width="400"/></p>  
 
